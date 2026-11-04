@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Build
+bin/
+obj/
+TestResults/
+
+# Perfiles de publicación (pueden contener credenciales)
+**/Properties/PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# Configuración sensible
+appsettings.Production.json
+appsettings.*.local.json
+*.env
+
+# Otros
+*.log
+.DS_Store
